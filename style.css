@@ -1,0 +1,38 @@
+*{
+  font-family: sans-serif;
+}
+.video-responsive {
+  position: relative;
+  z-index: 0;
+  overflow: inherit;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-responsive  iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2D313F;
+  padding: 10px;
+}
+footer a{
+  text-decoration: none;
+  color: #2D313F;
+}
+@media (max-width: 680px) {
+ footer p {
+   padding: 10px;
+   text-align: center;
+   font-size: 1em;
+  }
+}
